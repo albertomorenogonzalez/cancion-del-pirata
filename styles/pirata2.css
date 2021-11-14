@@ -1,0 +1,24 @@
+/********** estilo de pirata con imagen grande de fondo **********/
+
+@font-face {
+    font-family: 'Italianno', cursive; /* el nombre que yo quiera */
+    src: url("../fonts/Italianno-Regular.ttf"); /* donde está el archivo */
+}
+body {background-color: black;}
+
+#container {background-image: url(../images/background2.jpg);
+            background-size:cover; /* cover estira o encoge la imagen para que encage perfectamente 1 sola vez, sin repetir */
+            background-position: 100%; /* decido donde eestá el centro de interés de la imagen de fondo y fijamos ahí el punto para posteriores recortes por defecto, es left (100%) */
+            width: 90%;
+            height: 100vh; /* puede provocar que el texto del poema se salga del container */
+            margin:auto;
+            font-family: 'Italianno', cursive;
+            font-size: 1.1em;
+            }
+
+#poema {background-color: rgb(142, 106, 64, 0.8);
+        width: 200px; /* en este caso MUY PARTICULAR conviene fijar el ancho en pixeles porque protege el ancho de líneas del poema y no rompe los versos. además 300px caben en el ancho de cualquier móvil */
+        padding:20px;
+        margin:20px;
+        border: 20px;
+        }

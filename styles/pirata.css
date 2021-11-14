@@ -1,0 +1,28 @@
+/******** HOJA DE ESTILOS DE LA CANCIÓN DEL PIRATA ********/
+
+@font-face {
+        font-family: 'Italianno', cursive; /* el nombre que yo quiera */
+        src: url("../fonts/Italianno-Regular.tt"); /* donde está el archivo */
+}
+
+body {background-image: url("../images/background.jpg");
+        background-size: 25%; /* puedo redimensionar el tamaño del pattern */
+        /* background-repeat: repeat-y; */ /*puedo controlar la repetición */
+        padding:0;
+        margin:0;}
+        
+#container, #linkALaOtraPagina {background-color: rgb(255, 255, 255, 0.8);
+        width: 80%;
+        margin:auto;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Italianno', cursive; /* coloco el tipo de fuente nombrado por mí */
+}
+
+#container {
+        font-size: 2em;
+}
+
+#clinkALaOtraPagina {
+        font-size: 1em;
+}
